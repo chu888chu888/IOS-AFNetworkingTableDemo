@@ -36,9 +36,6 @@
 		B998A8BE1A8DCE9500F329AC /* profile-image-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B998A8B91A8DCE9500F329AC /* profile-image-placeholder.png */; };
 		B998A8BF1A8DCE9500F329AC /* profile-image-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B998A8BA1A8DCE9500F329AC /* profile-image-placeholder@2x.png */; };
 		B998A8C21A8DCEF200F329AC /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B998A8C11A8DCEF200F329AC /* AFAppDotNetAPIClient.m */; };
-		B998A8C61A8DD0AC00F329AC /* adn.cer in Resources */ = {isa = PBXBuildFile; fileRef = B998A8C31A8DD0AC00F329AC /* adn.cer */; };
-		B998A8C71A8DD0AC00F329AC /* digicert_ca_3.cer in Resources */ = {isa = PBXBuildFile; fileRef = B998A8C41A8DD0AC00F329AC /* digicert_ca_3.cer */; };
-		B998A8C81A8DD0AC00F329AC /* root_ca.cer in Resources */ = {isa = PBXBuildFile; fileRef = B998A8C51A8DD0AC00F329AC /* root_ca.cer */; };
 		B998A8D11A8DD25900F329AC /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B998A8D01A8DD25900F329AC /* User.m */; };
 		B998A8D41A8DD35200F329AC /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = B998A8D31A8DD35200F329AC /* Post.m */; };
 		B998A8D81A8DDAA900F329AC /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B998A8D71A8DDAA900F329AC /* PostTableViewCell.m */; };
@@ -111,9 +108,6 @@
 		B998A8BA1A8DCE9500F329AC /* profile-image-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder@2x.png"; sourceTree = "<group>"; };
 		B998A8C01A8DCEF200F329AC /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
 		B998A8C11A8DCEF200F329AC /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
-		B998A8C31A8DD0AC00F329AC /* adn.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = adn.cer; sourceTree = "<group>"; };
-		B998A8C41A8DD0AC00F329AC /* digicert_ca_3.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = digicert_ca_3.cer; sourceTree = "<group>"; };
-		B998A8C51A8DD0AC00F329AC /* root_ca.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = root_ca.cer; sourceTree = "<group>"; };
 		B998A8CF1A8DD25900F329AC /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		B998A8D01A8DD25900F329AC /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		B998A8D21A8DD35200F329AC /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
@@ -184,9 +178,6 @@
 			isa = PBXGroup;
 			children = (
 				B998A8B81A8DCE9500F329AC /* Images */,
-				B998A8C31A8DD0AC00F329AC /* adn.cer */,
-				B998A8C41A8DD0AC00F329AC /* digicert_ca_3.cer */,
-				B998A8C51A8DD0AC00F329AC /* root_ca.cer */,
 				B998A85C1A8DCDBD00F329AC /* Info.plist */,
 				B998A85D1A8DCDBD00F329AC /* main.m */,
 			);
@@ -414,9 +405,6 @@
 			files = (
 				B998A8691A8DCDBD00F329AC /* LaunchScreen.xib in Resources */,
 				B998A8661A8DCDBD00F329AC /* Images.xcassets in Resources */,
-				B998A8C81A8DD0AC00F329AC /* root_ca.cer in Resources */,
-				B998A8C71A8DD0AC00F329AC /* digicert_ca_3.cer in Resources */,
-				B998A8C61A8DD0AC00F329AC /* adn.cer in Resources */,
 				B998A8BD1A8DCE9500F329AC /* Default@2x.png in Resources */,
 				B998A8BE1A8DCE9500F329AC /* profile-image-placeholder.png in Resources */,
 				B998A8BF1A8DCE9500F329AC /* profile-image-placeholder@2x.png in Resources */,
@@ -647,6 +635,7 @@
 				B998A87A1A8DCDBE00F329AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B998A87B1A8DCDBE00F329AC /* Build configuration list for PBXNativeTarget "AFNetworkingTableDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +644,7 @@
 				B998A87D1A8DCDBE00F329AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

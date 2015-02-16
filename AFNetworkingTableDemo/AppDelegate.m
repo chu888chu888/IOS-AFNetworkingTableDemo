@@ -18,12 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSLog(@"IPHONE_OS_VERSION_MIN_REQUIRED");
     NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
     [NSURLCache setSharedURLCache:URLCache];
     
     [[AFNetworkActivityLogger sharedLogger] startLogging];
-    [[AFNetworkActivityLogger sharedLogger] setLevel:AFLoggerLevelDebug];
+    [[AFNetworkActivityLogger sharedLogger] setLevel:AFLoggerLevelOff];
     
     
     [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
